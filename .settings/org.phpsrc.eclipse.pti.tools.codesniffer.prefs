@@ -1,0 +1,11 @@
+active_standards=zend_custom
+custom_standard_names=zend_custom
+custom_standard_paths=C\:\\_TUHH\\SVN\\devel\\Sheeva_jetzt_paul\\sonne
+debug_print_output=false
+default_tab_width=0
+eclipse.preferences.version=1
+file_extension=
+ignore_pattern=
+pear_library=<Internal>
+php_executable=PHP 5.3.3 (CLI)
+pref_ignore_sniffs=

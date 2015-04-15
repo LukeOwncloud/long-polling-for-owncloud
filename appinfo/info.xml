@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>long_polling</id>
+	<name>Long-Polling</name>
+	<licence>AGPL</licence>
+	<author>Luke Owncloud</author>
+	<require>5</require>
+	<description>Long-Polling for changes in ownCloud. Activate, then browse to https://[yourOcServer]/index.php/apps/long_polling/poll for further details. For Linux only as it requires System V IPC, refer to http://www.tldp.org/LDP/lpg/node21.html and http://php.net/manual/en/sem.installation.php</description>
+	<types>
+        <filesystem/>
+	</types>
+	<dependencies><os>Linux</os></dependencies>
+	<shipped>false</shipped>
+</info>
