@@ -16,4 +16,11 @@ How to test long-polling
 
 3. See the change information arrive
 
-Linux only, as it requires System V IPC, refer to http://www.tldp.org/LDP/lpg/node21.html and http://php.net/manual/en/sem.installation.php
+Notes
+-----
+
+- Linux only, as it requires System V IPC, refer to http://www.tldp.org/LDP/lpg/node21.html and http://php.net/manual/en/sem.installation.php
+
+- This app is not used by any ownCloud client at this point (June 2015). There is a request for instantaneous server-to-client notifications (-> https://github.com/owncloud/client/issues/1075) but it obviously has no priority.
+
+- As long-polling requires the server to keep open TPC connections and with this app for each connection even a PHP interpreter instance, it does not scale. That is at least what the theory says. Practically it has never been tested what number of users can be supported with this approach by an ownCloud server.
